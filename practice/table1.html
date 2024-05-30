@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table1</title>
+</head>
+<body>
+    <!-- start table -->
+    <table border="2" width="100%" cellpadding="12px">
+<thead align="left">
+    <th>&lt;level&gt;</th>
+    <th colspan="5">Outboundpayment</th>
+</thead>
+<thead align="left">
+    <th>&lt;Sort Ascending&gt;</th>
+    <th colspan="5">Payee/Name</th>
+</thead>
+<thead align="left">
+    <th>&lt;Position&gt;</th>
+    <th>&lt;Length&gt;</th>
+    <th>&lt;Format&gt;</th>
+    <th>&lt;PAD&gt;</th>
+    <th>&lt;Data&gt;</th>
+    <th>&lt;Comment&gt;</th>
+    </thead>
+    <thead align="left">
+        <th>&lt;New Record&gt;</th>
+       <th colspan="5">Entry&#95;Deteil&#95;CR</th> 
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>Number</td>
+            <td>L&#44;&#39;0&#39;</td>
+            <td>6</td>
+            <td>Record Type</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2</td>
+            <td>Alpha</td>
+            <td>R&#44;&#39;&#39;</td>
+            <td>DECODE&#40;paymentAmount&#47;Value&#44;o&#44;&#39;23&#39;&#44;&#39;22&#39;&#41;</td>
+            <td>Transaction</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>9</td>
+            <td>Number</td>
+            <td>L&#44;&#39;0&#39;</td>
+            <td>payeeBankAccount&#47;BranchNumber</td>
+            <td>Receiving</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>17</td>
+            <td>Alpha</td>
+            <td>R&#44;&#39;&#39;</td>
+            <td>PayeeBankAccount&#47;BranchNumber</td>
+            <td>DFI Account</td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td>10</td>
+            <td>Number,Integer</td>
+            <td>L&#44;&#39;0&#39;</td>
+            <td>PaymentBankAccount&#47;Value&#42;100</td>
+            <td>Amount</td>
+        </tr>
+        <tr>
+            <td>40</td>
+            <td>15</td>
+            <td>Alpha</td>
+            <td>R&#44;&#39;&#39;</td>
+            <td>PaymentBankAccount&#47;PaymentReferenceNumber</td>
+            <td>Identification</td>
+        </tr>
+        <tr>
+            <td>55</td>
+            <td>22</td>
+            <td>Alpha</td>
+            <td>R&#44;&#39;&#39;</td>
+            <td>NVL(Payee&#47;AlternateName&#44;Payee&#47;Name)</td>
+            <td>Receiving Number</td>
+        </tr>
+    </tbody>
+
+
+
+
+    </table>
+    
+  <!-- End table -->
+</body>
+</html>
